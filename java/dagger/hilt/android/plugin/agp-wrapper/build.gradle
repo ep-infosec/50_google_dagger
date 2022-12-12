@@ -1,0 +1,8 @@
+plugins {
+  id 'org.jetbrains.kotlin.jvm'
+}
+
+dependencies {
+  compileOnly gradleApi()
+  compileOnly "com.android.tools.build:gradle:$agp_version"
+}
